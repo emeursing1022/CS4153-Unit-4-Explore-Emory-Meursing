@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E9A880D2DC306B900DF33C8 /* JournalModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A880B2DC306B900DF33C8 /* JournalModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E9A87EF2DC305DD00DF33C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9A87D62DC305DA00DF33C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9A87DD2DC305DA00DF33C8;
+			remoteInfo = "CS4153 Unit 4 Explore Emory Meursing";
+		};
+		6E9A87F92DC305DD00DF33C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9A87D62DC305DA00DF33C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9A87DD2DC305DA00DF33C8;
+			remoteInfo = "CS4153 Unit 4 Explore Emory Meursing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E9A87DE2DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CS4153 Unit 4 Explore Emory Meursing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9A87EE2DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CS4153 Unit 4 Explore Emory MeursingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9A87F82DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CS4153 Unit 4 Explore Emory MeursingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9A880C2DC306B900DF33C8 /* JournalModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JournalModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6E9A87E02DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CS4153 Unit 4 Explore Emory Meursing";
+			sourceTree = "<group>";
+		};
+		6E9A87F12DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CS4153 Unit 4 Explore Emory MeursingTests";
+			sourceTree = "<group>";
+		};
+		6E9A87FB2DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CS4153 Unit 4 Explore Emory MeursingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E9A87DB2DC305DA00DF33C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A87EB2DC305DD00DF33C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A87F52DC305DD00DF33C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E9A87D52DC305DA00DF33C8 = {
+			isa = PBXGroup;
+			children = (
+				6E9A880B2DC306B900DF33C8 /* JournalModel.xcdatamodeld */,
+				6E9A87E02DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing */,
+				6E9A87F12DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingTests */,
+				6E9A87FB2DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingUITests */,
+				6E9A87DF2DC305DA00DF33C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E9A87DF2DC305DA00DF33C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A87DE2DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing.app */,
+				6E9A87EE2DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingTests.xctest */,
+				6E9A87F82DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E9A87DD2DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9A88022DC305DD00DF33C8 /* Build configuration list for PBXNativeTarget "CS4153 Unit 4 Explore Emory Meursing" */;
+			buildPhases = (
+				6E9A87DA2DC305DA00DF33C8 /* Sources */,
+				6E9A87DB2DC305DA00DF33C8 /* Frameworks */,
+				6E9A87DC2DC305DA00DF33C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6E9A87E02DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing */,
+			);
+			name = "CS4153 Unit 4 Explore Emory Meursing";
+			packageProductDependencies = (
+			);
+			productName = "CS4153 Unit 4 Explore Emory Meursing";
+			productReference = 6E9A87DE2DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E9A87ED2DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9A88052DC305DD00DF33C8 /* Build configuration list for PBXNativeTarget "CS4153 Unit 4 Explore Emory MeursingTests" */;
+			buildPhases = (
+				6E9A87EA2DC305DD00DF33C8 /* Sources */,
+				6E9A87EB2DC305DD00DF33C8 /* Frameworks */,
+				6E9A87EC2DC305DD00DF33C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9A87F02DC305DD00DF33C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E9A87F12DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingTests */,
+			);
+			name = "CS4153 Unit 4 Explore Emory MeursingTests";
+			packageProductDependencies = (
+			);
+			productName = "CS4153 Unit 4 Explore Emory MeursingTests";
+			productReference = 6E9A87EE2DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E9A87F72DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9A88082DC305DD00DF33C8 /* Build configuration list for PBXNativeTarget "CS4153 Unit 4 Explore Emory MeursingUITests" */;
+			buildPhases = (
+				6E9A87F42DC305DD00DF33C8 /* Sources */,
+				6E9A87F52DC305DD00DF33C8 /* Frameworks */,
+				6E9A87F62DC305DD00DF33C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9A87FA2DC305DD00DF33C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E9A87FB2DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingUITests */,
+			);
+			name = "CS4153 Unit 4 Explore Emory MeursingUITests";
+			packageProductDependencies = (
+			);
+			productName = "CS4153 Unit 4 Explore Emory MeursingUITests";
+			productReference = 6E9A87F82DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E9A87D62DC305DA00DF33C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6E9A87DD2DC305DA00DF33C8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6E9A87ED2DC305DD00DF33C8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6E9A87DD2DC305DA00DF33C8;
+					};
+					6E9A87F72DC305DD00DF33C8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6E9A87DD2DC305DA00DF33C8;
+					};
+				};
+			};
+			buildConfigurationList = 6E9A87D92DC305DA00DF33C8 /* Build configuration list for PBXProject "CS4153 Unit 4 Explore Emory Meursing" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E9A87D52DC305DA00DF33C8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6E9A87DF2DC305DA00DF33C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E9A87DD2DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing */,
+				6E9A87ED2DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingTests */,
+				6E9A87F72DC305DD00DF33C8 /* CS4153 Unit 4 Explore Emory MeursingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E9A87DC2DC305DA00DF33C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A87EC2DC305DD00DF33C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A87F62DC305DD00DF33C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E9A87DA2DC305DA00DF33C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9A880D2DC306B900DF33C8 /* JournalModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A87EA2DC305DD00DF33C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A87F42DC305DD00DF33C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E9A87F02DC305DD00DF33C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9A87DD2DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing */;
+			targetProxy = 6E9A87EF2DC305DD00DF33C8 /* PBXContainerItemProxy */;
+		};
+		6E9A87FA2DC305DD00DF33C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9A87DD2DC305DA00DF33C8 /* CS4153 Unit 4 Explore Emory Meursing */;
+			targetProxy = 6E9A87F92DC305DD00DF33C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E9A88002DC305DD00DF33C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E9A88012DC305DD00DF33C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E9A88032DC305DD00DF33C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CS4153 Unit 4 Explore Emory Meursing/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OSU.CS4153-Unit-4-Explore-Emory-Meursing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E9A88042DC305DD00DF33C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CS4153 Unit 4 Explore Emory Meursing/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OSU.CS4153-Unit-4-Explore-Emory-Meursing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E9A88062DC305DD00DF33C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OSU.CS4153-Unit-4-Explore-Emory-MeursingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CS4153 Unit 4 Explore Emory Meursing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CS4153 Unit 4 Explore Emory Meursing";
+			};
+			name = Debug;
+		};
+		6E9A88072DC305DD00DF33C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OSU.CS4153-Unit-4-Explore-Emory-MeursingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CS4153 Unit 4 Explore Emory Meursing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CS4153 Unit 4 Explore Emory Meursing";
+			};
+			name = Release;
+		};
+		6E9A88092DC305DD00DF33C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OSU.CS4153-Unit-4-Explore-Emory-MeursingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CS4153 Unit 4 Explore Emory Meursing";
+			};
+			name = Debug;
+		};
+		6E9A880A2DC305DD00DF33C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OSU.CS4153-Unit-4-Explore-Emory-MeursingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CS4153 Unit 4 Explore Emory Meursing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E9A87D92DC305DA00DF33C8 /* Build configuration list for PBXProject "CS4153 Unit 4 Explore Emory Meursing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A88002DC305DD00DF33C8 /* Debug */,
+				6E9A88012DC305DD00DF33C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9A88022DC305DD00DF33C8 /* Build configuration list for PBXNativeTarget "CS4153 Unit 4 Explore Emory Meursing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A88032DC305DD00DF33C8 /* Debug */,
+				6E9A88042DC305DD00DF33C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9A88052DC305DD00DF33C8 /* Build configuration list for PBXNativeTarget "CS4153 Unit 4 Explore Emory MeursingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A88062DC305DD00DF33C8 /* Debug */,
+				6E9A88072DC305DD00DF33C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9A88082DC305DD00DF33C8 /* Build configuration list for PBXNativeTarget "CS4153 Unit 4 Explore Emory MeursingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A88092DC305DD00DF33C8 /* Debug */,
+				6E9A880A2DC305DD00DF33C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E9A880B2DC306B900DF33C8 /* JournalModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E9A880C2DC306B900DF33C8 /* JournalModel.xcdatamodel */,
+			);
+			currentVersion = 6E9A880C2DC306B900DF33C8 /* JournalModel.xcdatamodel */;
+			path = JournalModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E9A87D62DC305DA00DF33C8 /* Project object */;
+}
